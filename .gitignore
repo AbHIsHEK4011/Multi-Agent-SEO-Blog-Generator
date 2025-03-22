@@ -1,1 +1,5 @@
 .env
+main2.py
+__pycache__/
+agents/__pycache__
+tasks/__pycache__
