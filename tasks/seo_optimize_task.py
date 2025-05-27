@@ -1,7 +1,10 @@
 from crewai import Task
-from agents.seo_optimize_agent import SEOOptimizeAgent
+# Agent is assigned in main.py, so no need to import or assign here.
+
 seo_optimize_task = Task(
-        description="Optimize the blog for SEO.",
-        agent=SEOOptimizeAgent(),
-        expected_output="An SEO-optimized blog with proper keywords and meta descriptions."
-    )
+    description="Optimize the blog post for SEO.", # Consistent description
+    # agent will be assigned in main.py
+    expected_output="The original blog post content, enhanced with relevant keywords (if a list is "
+                    "provided or derivable), an optimized title, and a meta description (150-160 characters). "
+                    "Keywords should be naturally integrated."
+)

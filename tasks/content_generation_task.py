@@ -1,7 +1,10 @@
 from crewai import Task
-from agents.content_generation_agent import ContentGenerationAgent
+# Agent is assigned in main.py, so no need to import or assign here.
+
 content_generation_task = Task(
-        description="Generate a 2000-word blog post.",
-        agent=ContentGenerationAgent(),
-        expected_output="A well-written HR blog article."
-    )
+    description="Generate a well-structured blog post based on the outline.", # Updated description for consistency
+    # agent will be assigned in main.py
+    expected_output="A well-written, engaging blog post of approximately 800-1200 words, based on the "
+                    "provided outline. The tone should be informative yet accessible. Include practical "
+                    "examples where relevant and a concluding paragraph that summarizes key takeaways."
+)
