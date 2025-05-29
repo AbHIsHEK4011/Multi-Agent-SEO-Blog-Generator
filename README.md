@@ -54,13 +54,12 @@ The system employs a series of AI agents that work sequentially:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
+    [git clone https://github.com/your-username/your-repository-name.git](https://github.com/AbHIsHEK4011/Multi-Agent-SEO-Blog-Generator.git)
     ```
-    *(Replace `https://github.com/your-username/your-repository-name.git` with the actual URL of this repository if it's different.)*
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd your-repository-name
+    cd Multi-Agent-SEO-Blog-Generator
     ```
 
 3.  **Install dependencies:**
